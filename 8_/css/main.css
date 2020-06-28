@@ -1,0 +1,268 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans";
+  overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+p {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+/*--------------------header---*/
+
+.header {
+  width: 100%;
+  height: 80px;
+  background: #d47bfe;
+  box-shadow: 0px 5px 40px rgba(0, 0, 0, 0.5);
+}
+
+.header-body {
+  height: 80px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.logo p {
+  font-size: 18px;
+  font-weight: 100;
+  color: #fff;
+}
+
+.logo span {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.nav {
+  margin-left: 113px;
+  width: 884px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menu {
+  width: 478px;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+}
+
+.menu__item {
+  color: #fff;
+}
+
+.menu__item:hover {
+  border-bottom: 2px solid #fff;
+}
+
+.contact-1 {
+  margin-left: 70px;
+  width: 205px;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+}
+
+.contact__item {
+  color: #fff;
+}
+
+.header-offer {
+  width: 100%;
+  min-height: 575px;
+  background: url("/img/header/offer/offer.jpg") center no-repeat;
+  background-size: cover;
+}
+
+.slick-list {
+  padding-top: 50px;
+  max-width: 1106px;
+  overflow: hidden;
+  margin: 0 auto;
+  outline: none;
+}
+
+.slick-track {
+  margin-left: 0px;
+  display: flex;
+  outline: none;
+}
+
+.slide__item {
+  outline: none;
+  width: 1106px;
+  height: 483px;
+  background: url("../img/header/offer/banner.jpg");
+  background-size: cover;
+}
+
+/*---------------------------top--------*/
+
+.top-shop {
+  width: 100vw;
+}
+
+.top-title {
+  margin-top: 80px;
+  background: url("../img/header/top/title.jpg") center no-repeat;
+}
+
+.top-body h1 {
+  text-align: center;
+  font-size: 28px;
+  font-weight: normal;
+  font-family: "Montserrat";
+}
+
+.line img {
+  margin-top: 34px;
+  margin-bottom: 52px;
+  width: 100%;
+  height: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#card__title {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.top-class_1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.top-class_2 {
+  margin-bottom: 62px;
+  margin-top: 123px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.top-item {
+  width: 292px;
+  height: 429px;
+  display: flex;
+  flex-flow: column;
+}
+
+.foto {
+  width: 292px;
+  height: 275px;
+  background: url("https://i.pinimg.com/originals/83/a1/49/83a149c9637c31baafe760a615753e22.jpg");
+  background-size: 100%;
+}
+
+.text-foto {
+  text-align: center;
+  width: 292px;
+  height: 70px;
+  font-size: 15px;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+.button {
+  margin-top: 42px;
+  width: 292px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  padding: 10px 10px;
+  background: linear-gradient(180deg, #e240fd, #530c5f);
+  color: #fff;
+  font-family: "Montserrat";
+  font-weight: 700;
+  border-radius: 5px;
+}
+
+/*--------------------------------footer----------*/
+
+.footer {
+  width: 100%;
+  height: 154px;
+  background-color: #d47bfe;
+  box-shadow: 0px -5px 40px rgba(0, 0, 0, 0.5);
+}
+
+.footer-body {
+  height: 154px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-sub {
+  color: #fff;
+  font-family: "Montserrat";
+  font-size: 18px;
+}
+
+.logo-sub span {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.subLogo p {
+  color: #fff;
+  font-size: 12px;
+}
+
+.sub__menu li a {
+  color: #fff;
+  font-size: 14px;
+}
+
+.sub__btn {
+  display: flex;
+  flex-flow: column;
+  color: #fff;
+}
+
+.subContact {
+  color: #fff;
+  display: flex;
+  width: 234px;
+  justify-content: space-between;
+}
+
+.subContact a {
+  color: #fff;
+}
+
+.section {
+  width: 100%;
+  height: 885px;
+}

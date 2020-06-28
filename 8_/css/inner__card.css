@@ -1,0 +1,115 @@
+.inner-body {
+  display: flex;
+  align-items: center;
+}
+
+.card__img {
+  margin: 100px;
+  margin-left: 0;
+  margin-right: 123px;
+}
+
+.card__img img {
+  width: 608px;
+  height: 683px;
+}
+
+.info-title {
+  font-size: 36px;
+  font-family: "Montserrat";
+  font-weight: normal;
+  margin-bottom: 34px;
+}
+
+.info-text {
+  font-size: 16px;
+  margin-bottom: 34px;
+}
+
+.prize {
+  color: red;
+  font-family: "Times New Roman";
+  font-size: 22px;
+  margin-bottom: 34px;
+}
+
+.btns {
+  width: 275px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.author {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+.author p {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-style: 20px;
+}
+
+.slick-list {
+  padding-top: 50px;
+  max-width: 410px;
+  overflow: hidden;
+  margin: 0 auto;
+  outline: none;
+}
+
+.slick-track {
+  margin-left: 0px;
+  display: flex;
+  outline: none;
+}
+
+.feedback-1 {
+  cursor: pointer;
+  outline: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.feedback p {
+  font-size: 14px;
+  margin-left: 20px;
+}
+
+.feed-title {
+  font-family: "Montserrat";
+  font-size: 36px;
+  font-weight: normal;
+  text-align: center;
+  margin-top: 34px;
+}
+
+.feedback-card .slick-dots {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.feedback-card .slick-dots li {
+  margin: 0 5px;
+}
+
+.feedback-card .slick-dots button {
+  cursor: pointer;
+  font-size: 0;
+  width: 15px;
+  height: 15px;
+  border: none;
+  outline: none;
+  background-color: #d47bfe;
+  border-radius: 50%;
+}
+
+.feedback-card .slick-dots .slick-active button{
+    background-color: transparent;
+    border: 2px solid #d47bfe;
+}
